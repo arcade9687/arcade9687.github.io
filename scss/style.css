@@ -107,7 +107,7 @@
 
 @media (min-width: 86em) {
   .navlinks {
-    font-size: 300px;
+    font-size: 150px;
   }
 }
 .nv {
@@ -179,8 +179,7 @@ h1:hover {
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   -webkit-background-clip: text;
   background-size: 100%;
-  -webkit-animation: animate 10s linear infinite;
-          animation: animate 10s linear infinite;
+  animation: animate 10s linear infinite;
 }
 
 @media (min-width: 86em) {
@@ -192,8 +191,7 @@ h1:hover {
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
     -webkit-background-clip: text;
     background-size: 400%;
-    -webkit-animation: animate 5s linear infinite;
-            animation: animate 5s linear infinite;
+    animation: animate 5s linear infinite;
   }
 }
 .gtext {
@@ -213,17 +211,6 @@ h1:hover {
   color: rgba(255, 255, 255, 0.92);
 }
 
-@-webkit-keyframes animate {
-  0% {
-    background-position: 0%;
-    filter: hue-rotate(0deg);
-  }
-  100% {
-    background-position: 400%;
-    filter: hue-rotate(-1turn);
-  }
-}
-
 @keyframes animate {
   0% {
     background-position: 0%;
@@ -233,4 +220,4 @@ h1:hover {
     background-position: 400%;
     filter: hue-rotate(-1turn);
   }
-} /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
